@@ -104,6 +104,22 @@
  
   <!-- Mobile-friendly navbar adapted from example. -->
   <!-- http://twitter.github.io/bootstrap/examples/starter-template.html -->
+  
+<!--
+
+<div class="navbar">
+  <div class="navbar-inner">
+    <a class="brand" href="#">Title</a>
+    <ul class="nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Link</a></li>
+      <li><a href="#">Link</a></li>
+    </ul>
+  </div>
+</div>
+-->
+
+
   <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="navbar-inner">
 	   <div class="container">
@@ -119,10 +135,11 @@
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-    </div> <!-- /.nav-collapse -->
+    </div> 
 	 </div>
   </div>
  </div>
+
 
 <!-- We use row-fluid inside containers to achieve a resizable layout. -->
 
@@ -204,27 +221,25 @@
   <div class="row-fluid faq">
     <div class="span10 offset1">
       <h3>FAQ</h3>
-      <div class="accordian" id="accordian2">
-        <div class="accordian-group">
-          <div class="accordian-heading">
-            <a class="accordian-toggle" data-toggle="collapse" data-parent="#accordian2" href="#collapseOne">
-              What does FAQ stand for?
-            </a>
+      <div class="accordion" id="accordion2">
+        <div class="accordion-group">
+          <div class="accordion-heading">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">What does FAQ stand for?</a>
           </div>
-          <div id="collapseOne" class="accordian-body collapse">
-            <div class="accordian-inner">
+          <div id="collapseOne" class="accordion-body collapse">
+            <div class="accordion-inner">
               Frequently Asked Question.
             </div>
           </div>
         </div>
-        <div class="accordian-group">
-          <div class="accordian-heading">
-            <a class-"accordian-toggle" data-toggle="collapse" data-parent="#accordian2" href="#collapseTwo">
+        <div class="accordion-group">
+          <div class="accordion-heading">
+            <a class-"accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
               What's a Frequently Asked Question?
             </a>
           </div>
-          <div id="collapseTwo" class="accordian-body collapse">
-            <div class="accordian-inner">
+          <div id="collapseTwo" class="accordion-body collapse">
+            <div class="accordion-inner">
               A question which is commonly asked by users.
             </div>
           </div>

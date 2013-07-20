@@ -9,102 +9,38 @@
     <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link type="text/css" rel="stylesheet" href="font-awesome/css/font-awesome.css">
     <link type="text/css" rel="stylesheet" href="css/bootstrap-social-buttons.css">
+    <link type="text/css" rel="stylesheet" href="css/styles.css">
+    <link type="text/css" rel="stylesheet" href="css/styles_media.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
     <script src="js/jquery-1.9.1.js"></script>
     <script src="js/bootstrap.js"></script>
-   
-    <style type="text/css">
-      /* Large desktop */
-      @media (min-width: 980px) {
-        body {
-          padding-top:60px;
-        }
-        .linediv-l {
-          border-right: 1px white solid;
-        }
-        .linediv-r {
-          border-left: 1px white solid;
-        }
-      }
-
-      /*Landscape phones and down*/
-      @media (max-width: 480px) {
-        .copy {
-          padding: 2.5% 10%;
-        }
-        .linediv-l {
-          border-bottom: 1px white solid;
-        }
-        .linediv-r {
-          border-top: 1px white solid;
-        }
-      }
-
-      /*All form factors */
-
-      /*Main body and headings */
-
-      body {
-        font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-      }
-      .heading, .subheading {
-        font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
-        text-align: center;
-      }
-      p.lead{
-        padding-top: 1.5%;
-        font-size: 24px;
-        line-height: 30px;
-      }
-      p {
-        font-size: 18px;
-        line-height: 24px;
-      }
-
-      /*Video pitch and Action */
-      .pitch {
-        padding: 2.5% 0%;
-      }
-      .order {
-        padding: 2% 0%;
-      }
-      .actions {
-        background-color: #343434;
-        padding: 3% 0%;
-      }
-      .video, .thermometer, .order, .social, .statistics {
-        text-align: center;
-      }
-      .statistics h3, .statistics p {
-        color:white;
-      }
-
-      /* Marketing Copy and Footer */
-      .copy {
-        padding-top: 2.5%;
-        padding-bottom: 2.5%;
-        text-align: justify;
-      }
-      .asset {
-        padding: 2.5% 0%;
-      }
-      .footer {
-        color: #cccccc;
-        text-align: center;
-      }
-      .footer p {
-        font-size: 11px;
-      }
-      .footer a {
-        color: #ccccff;
-      }
-
-    </style>
+    <script src="js/script.js"></script>
   </head>
   <body>
  
   <!-- Mobile-friendly navbar adapted from example. -->
   <!-- http://twitter.github.io/bootstrap/examples/starter-template.html -->
   
+<div class="ah-container">
+  <div class="ah-nav">
+  </div>
+  <div class="ah-nav-contents">
+    <img class="ah-logo" src="img/Atlanta Harvest.png">
+    <button class="ah-hamburger" onclick="showMenu()"><i class="icon-reorder"></i>
+    </button>
+    <div class="ah-page-links">
+      <span class="ah-link">HOME</span>
+      <span class="ah-link">CONTACT</span>
+      <span class="ah-link">GET IN THE GAME</span>
+    </div>
+  </div>
+</div>
+
+<div class="ah-farm-img">
+</div>
+
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
 <!--
 
 <div class="navbar">
@@ -119,7 +55,7 @@
 </div>
 -->
 
-
+<!--
   <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="navbar-inner">
 	   <div class="container">
@@ -139,6 +75,8 @@
 	 </div>
   </div>
  </div>
+
+-->
 
 
 <!-- We use row-fluid inside containers to achieve a resizable layout. -->

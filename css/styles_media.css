@@ -1,0 +1,48 @@
+/* Large desktop */
+@media (min-width: 1200px) { ... }
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+ }
+ 
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+  body {
+  	margin: 0;
+  	padding: 0;
+  }
+  .ah-logo {
+    max-width:65%;
+    height:auto;
+    margin-left:10px;
+  } 
+  .ah-hamburger {
+  	visibility: visible;
+  	position:absolute;
+  	right: 15%;
+  	top: 35px;
+  	background: rgb(175,175,175);
+  	border:none;
+  	border-radius: 3px;
+  }
+  .ah-page-links{
+  	text-align:center;
+  	display: block;
+  	position:relative;
+  	line-height:20px;
+  }
+  .ah-link {
+  	display: block;
+  }
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .ah-logo {
+    max-width:70%;
+    height:auto;
+    margin-left: 3px;
+  } 	
+}
+

@@ -1,0 +1,282 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Atlanta Harvest</title>
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
+    <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">    
+    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
+    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800" 
+          rel="stylesheet" type="text/css">
+    <style type="text/css">
+      /*Large Desktop*/
+      @media(min-width: 980px){
+      body{
+        padding-top: 60px;
+      }
+      .linediv-l {
+        border-right: 1px white solid;
+      }
+      .linediv-r {
+        border-left: 1px white solid;
+      }
+      }
+
+      /*Landscape Phones and Down*/
+      @media(max-width: 480px){
+      .copy {
+        padding: 2.5% 10%;
+      }
+      .linediv-l{
+        border-bottom: 1px white solid;
+      }
+      .linediv-r{
+        border-top: 1px white solid;
+      }
+      }
+
+      /*All form factors */
+       
+      /*Main body and headings*/
+      body{
+        font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+      }
+      .heading{
+        font-family: Helvetica, Arial, sans-serif;
+        text-align: center;
+      }
+	  .subheading{
+		font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+		text-align: center;
+		}
+      p.lead {
+        padding-top: 1.5%;
+        font-size: 24px;
+        line-height: 30px;
+      }
+      p {
+        font-size: 18px;
+        line-height: 24px;
+      }
+
+      /*Video pitch and Action */
+      .pitch {
+        padding: 2.5% 0%
+      }
+      .order {
+        padding: 2% 0%
+      }
+      .actions {
+        background-color: #343434;
+        padding: 3% 0%;
+      }
+      .video, .thermometer, .order, .social, .statistics {
+        text-align: center;
+      }
+      .statistics h3, .statistics p {
+        color: white;
+      }
+
+      /* Marketing Copy and Footer */
+      .copy {
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+        text-align: justify;
+      }
+      .asset{
+        padding: 2.5% 0%;
+      }
+      .footer {
+        color: #cccccc;
+        text-align: center;
+      }
+      .footer p {
+        font-size: 11px;
+      }
+      .footer a{
+        color: #ccccff;
+      }
+      </style>
+    </head>
+  <body>
+
+    <!-- Mobile-friendly navbar adopted from example -->
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+	<div class="container">
+	  <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+	    <span class="icon-bar"></span>
+	    <span class="icon-bar"></span>
+	    <span class="icon-bar"></span>
+	    </button>
+	  <a class="brand" href="#">Bitstarter</a>
+	  <div class="nav-collapse collapse">
+	    <ul class="nav">
+	      <li class="active"><a href="#">Home</a></li>
+	      <li><a href="#about">About</a></li>
+	      <li><a href="#contact">Contact</a></li>
+	      </ul>
+	  </div>
+	  </div>
+	</div>
+      </div>
+    
+
+    <!-- Use row-fluid inside containers for resizable layout -->
+    <div class="container">
+      <div class="row-fluid heading">
+	<div class="span12">
+	  <h1>Atlanta Harvest</h1>
+	  </div>
+	</div>
+      <div class="row-fluid subheading">
+	<div class="span12">
+	  <p class="lead">premium produce, city fresh.</p>
+	  </div>
+	</div>
+      <div class="row-fluid pitch">
+	<div class="span5 offset1 video">
+	  <img class="img-polaroid" src="http://placehold.it/480x300">
+	  </div>
+	
+	<!-- New actions div for statistics/sharing buttons -->
+	<div class="span5 actions">
+	  <div class="span8 offset2">
+	    <div class="statistics">
+	      <div class="span4">
+		<div class="linediv-l">
+		  <h3>1000</h3><p>backers</p>
+		  </div>
+		</div>
+	      <div class="span4">
+		<div class="linediv-c">
+		  <h3>$6,000</h3><p>of $10,000</p>
+		  </div>
+		</div>
+	      <div class="span4">
+		<div class="linediv-r">
+		  <h3>10</h3> <p>days left</p>
+		  </div>
+		</div>
+	      </div>
+	    </div>
+	  <div class="span10 offset1">
+	    <!-- Bootstrap progress bar -->
+	    <div class="thermometer progress active">
+	      <div class="bar bar-success" style="width: 60%;"></div>
+	      <div class="bar bar-warning" style="width: 40%;"></div>
+	      </div>
+	    </div>
+	  <div class="span6 offset3 order">
+	    <!-- Standard Bootstrap button -->
+	    <button class="btn btn-success btn-large">Preorder</button>
+	    </div>
+	  <div class="span8 offset2 social">
+	    <!-- Social buttons not included in default Bootstrap -->
+	    <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
+	    <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
+	    </div>
+	  </div>
+	</div>
+      
+      <!-- Beyond this point is Marketing Copy -->
+      <div class="row fluid section1">
+	<div class="span5 offset1 asset">
+	  <img class="img-polaroid" src="http://placehold.it/480x300">
+	  </div>
+	<div class="span5 copy">
+	<h3>Good for You</h3>
+	  <p>
+	    Atlanta Harvest will be the city’s leading source of 100% organic, ultra-local greens and lettuce. Due to Atlanta Harvest’s incredible proximity to market, our produces will often go from farm to table within the same day. This provides our customers with the freshest vegetables possible, at prices competitive with industrial farms. Our vegetables are grown in Certified Organic compost, using only natural fertilizers and nutrients, ensuring our customers receive the most natural, and freshest, produce available.
+	    </p>
+	  </div>
+	</div>
+    <div class="row-fluid section2">
+	<div class="span5 offset1 copy copy-right">
+	<h3>Good for Farmers</h3>
+	  <p>
+	    Our company will act as an integrator for aspiring local entrepreneurs, connecting them with the knowledge, resources, and markets that they will need to thrive in Atlanta’s blossoming local food market.
+	    </p>
+		<div class="row-fluid">
+		<div class="span11 offset1 copy">
+		<h4>Front-End Services</h4>
+		<p>
+		Atlanta Harvest will specialize in planting new urban farms, by helping new farmers construct, fund, and operate their own independent farm. We will provide all new farmers with training in farming techniques, as well as business skills development, to ensure they have all the proper tools to operate a thriving small business.
+		</p>
+		</div>
+		<div class="row-fluid">
+		<div class="span11 offset1 copy">
+		<h4>Back-End Services</h4>
+		<p>
+		Once started, our company will provide support and distribution services to any of the farms within the Atlanta Harvest network. In addition to a unified brand identity and pooled resources to secure large contracts, Atlanta Harvest farmers gain access to services such as supply chain management, soil testing, and farming equipment.
+		</p>
+		</div>
+		</div>
+		</div>
+	  </div>
+	<div class="span5 asset">
+	  <img class="img-polaroid" src="http://placehold.it/480x300">
+	  </div>
+	</div>
+	
+	<div class="row-fluid section3">
+	
+	<div class="span5 offset1 copy">
+	<h3>Great for Atlanta</h3>
+	<p>Atlanta Harvest is a triple-bottom-line company with a big vision: to see urban agriculture form the back bone of thriving neighborhood economies in Atlanta, and across the United States.</p>
+	<p>Socially, we aim to bring green jobs into a city facing high unemployment and chronically low wages. AH farmers enjoy the benefits of low up-front investment, a true living wage, healthcare benefits, and a guaranteed buyer for their product.</p>
+	<p>Environmentally, our company reduces Atlanta’s carbon footprint by preserving its green space on the lots we use for farming. We also cut out the thousands of metric tons of CO2 currently created by transporting most of Atlanta’s lettuce and greens across the country from California.</p>
+	</div>
+	<div class="span5 asset">
+		<img class="img-polaroid" src="http://placehold.it/480x300">
+	  </div>
+	</div>
+      
+      <!-- FAQ -->
+      <div class="row-fluid faq">
+	<div class="span10 offset1">
+	  <h3>FAQ</h3>
+	  <div class="accordion" id="accordion2">
+	    <div class="accordion-group">
+	      <div class="accordion-heading">
+		<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+		  What does FAQ stand for?
+		  </a>
+		</div>
+	      <div id="collapseOne" class="accordion-body collapse">
+		<div class="accordion-inner">
+		  Frequently Asked Question.
+		  </div>
+		</div>
+	      </div>
+	    <div class="accordion-group">
+	      <div class="accordion-heading">
+		<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+		  What's a Frequently Asked Question?
+		  </a>
+		</div>
+	      <div id="collapseTwo" class="accordion-body collapse">
+		<div class="accordion-inner">
+		A question which is commonly asked by users.
+		</div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+      </div>
+
+<!-- Footer -->
+<div class="row-fluid footer">
+  <div class="span12">
+    <p> This work is licensed under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC by-SA 3.0 </a>, without all of the cruft that would otherwise be put at the bottom of the page.</p>
+    </div>
+</div>
+</div>
+</body>
+</html>

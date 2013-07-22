@@ -20,6 +20,8 @@
   .ah-hamburger {
   	visibility: visible;
   	position:absolute;
+    height:25px;
+    width:25px;
   	right: 15%;
   	top: 35px;
   	background: rgb(175,175,175);
@@ -27,6 +29,7 @@
   	border-radius: 3px;
   }
   .ah-page-links{
+    width:100%;
   	text-align:center;
   	display: block;
   	position:relative;

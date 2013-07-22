@@ -12,9 +12,9 @@
  $(window).scroll(function(){
         var scrollTop = $(window).scrollTop();
         if(scrollTop != 0)
-            $('.ah-nav').stop().animate({'opacity': '.9'},400);
+            $('.ah-nav').stop().animate({'opacity': '.9'},200);
       	else   
-            $('.ah-nav').stop().animate({'opacity':'.4'},400); 
+            $('.ah-nav').stop().animate({'opacity':'.4'},200); 
     });
 
 function showMenu() {

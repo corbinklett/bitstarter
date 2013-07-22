@@ -50,16 +50,21 @@
     overflow: hidden;
   }
   .ah-logo {
-    width: 504px;
+    float: left;
+    background: url('../img/AH.png') 0 0 no-repeat;
+    background-position: center center;
     max-width: 50%;
-  	height:auto;
-  	margin-left:35px;
+    width: 504px;
+    height: 90px;
+    z-index: 10;
+    background-size: contain;
   }
+
   .ah-farm-img {
     position: absolute;
     top: 0;
     z-index: 0;
-    background: url('../img/farm1.png') no-repeat;
+    background: url('../img/farm1.jpg') no-repeat;
     background-size: cover;
     width:100%;
     height:275px;

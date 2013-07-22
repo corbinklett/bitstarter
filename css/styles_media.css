@@ -13,17 +13,21 @@
   	padding: 0;
   }
   .ah-logo {
-    max-width:65%;
-    height:auto;
-    margin-left:10px;
+    max-width:70%;
+    background: url('../img/AHnotag.png') 0 0 no-repeat;
+    background-position: center center;
+    width: 504px;
+    height: 90px;
+    z-index: 10;
+    background-size: contain;
   } 
   .ah-hamburger {
   	visibility: visible;
   	position:absolute;
-    height:25px;
-    width:25px;
-  	right: 15%;
-  	top: 35px;
+    height:35px;
+    width:35px;
+  	right: 10%;
+  	top: 30px;
   	background: rgb(175,175,175);
   	border:none;
   	border-radius: 3px;
@@ -32,20 +36,21 @@
     width:100%;
   	text-align:center;
   	display: block;
-  	position:relative;
-  	line-height:20px;
+    top: 100px;
+  	line-height:30px;
+    margin: 0;
   }
   .ah-link {
   	display: block;
+    margin: 0;
+  }
+  .ah-nav {
+    opacity: .95;
   }
 }
  
 /* Landscape phones and down */
 @media (max-width: 480px) {
-  .ah-logo {
-    max-width:70%;
-    height:auto;
-    margin-left: 3px;
-  } 	
+
 }
 
